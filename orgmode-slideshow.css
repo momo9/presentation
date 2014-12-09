@@ -1,10 +1,13 @@
+@charset: 'utf8';
+
 body {
 /* visibility:hidden; */
-    font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-    background: #000 url("../bg/mauc_bg_bokeh_16x9.jpg");
+    font-family: Verdana, '黑体';
+    background: #000;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    line-height: 1.5;
 }
 
 .slide{
@@ -136,7 +139,8 @@ color:#ccc;
 
 
 .section-number-2,.section-number-3 {
-      position:absolute;
+    visibility: hidden;
+    position:absolute;
     font-size: 12px;
     top:10px;
 }
@@ -163,6 +167,22 @@ color:#ccc;
     padding-bottom: 20px;
 }
 
+.outline-text-2 {
+    padding-top: 0;
+}
+
+#table-of-contents {
+    visibility: hidden;
+}
+
+#text-table-of-contents ul {
+    list-style-type: none;
+}
+
+ul {
+    line-height: 2;
+}
+
 .figure{
     overflow:hidden;
     position: absolute;
@@ -177,11 +197,9 @@ color:#ccc;
 
 .figure p { 
     text-align: center;
-    font-family: 'Droid Serif', serif;
-    font-size: 15px;
-    font-style:italic;
+    font-size: 1em;
     color: #bbb;
-
+    margin-top: 0;
 	  }
 video {
     position:relative;
@@ -190,3 +208,11 @@ video {
     z-index:99;
 }
 
+code {
+    font-family: consolas;
+}
+
+img {
+    max-width: auto;
+    max-height: 100%;
+}

@@ -1,0 +1,56 @@
+#+TITLE: Be A Hacker
+#+description: 关于程序员求职的种种
+#+AUTHOR: 梁晨驰（liangchenchi@gmail.com）
+#+DATE: Dec. 11, 2014
+
+#+STYLE: <link rel="stylesheet" type="text/css" href="../orgmode-slideshow.css"/>
+#+STYLE: <script type="text/javascript" src="../jquery-1.11.1.js"></script>
+#+STYLE: <script type="text/javascript" src="../orgmode-slideshow.js"></script>
+
+* 适合与不适合
+
+- 谁适合这个 presentation
+  - 有志于互联网技术类岗位
+  - 下定决心持续学习新知识
+  - 非软件、计算机专业
+- 谁不适合这个 presentation
+  - 各路大神
+  - 喜欢安安稳稳的生活
+  - 有志于其它行业的技术类岗位：金融、微电子等
+  - 有志于互联网的其它职位：产品、市场等
+
+* 技术岗位有哪些？
+
+各个岗位的位置，职能
+
+* 准备：算法题
+
+给教材
+
+* 准备：语言
+
+给出必学的几种（c、java、python、markdown），建议大家深入一种，多学几种
+
+* 准备：基础知识
+
+必学：网络、*nix、数据库
+
+选学：结合自己已有的专业知识、大数据、分布式
+
+* 准备：实习与开源项目
+
+必要性：了解商业环境下是怎么开发的
+
+* 我的求职经历
+
+* 个人的经验与教训
+
+深度第一
+
+* 以后的路
+
+* 欢迎提问 =foomomobar=
+
+#+caption: 我的微信公众号
+[[./qrcode.jpg]]
+
