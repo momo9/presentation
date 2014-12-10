@@ -1,0 +1,56 @@
+@startuml
+
+' define
+
+:用户: as user
+(iOS) as ios
+(Android) as android
+
+usecase frontEnd as "前端
+--
+HTML CSS
+JavaScript"
+
+(其它客户端) as otherClient
+
+usecase backEnd as "后端
+--
+php java
+python ruby 等"
+
+usecase infr as "基础服务
+--
+网络 安全
+集群"
+
+usecase algo as "算法服务
+--
+数据挖掘 机器学习
+图像处理 搜索"
+
+usecase dba as "数据库
+--
+SQL"
+
+(测试) as test
+(运维) as pe
+
+' graph
+
+user -- ios
+user -- android
+user -- frontEnd
+user -- otherClient
+
+ios -- backEnd
+android -- backEnd: HTTP
+frontEnd -- backEnd
+otherClient -- backEnd
+
+backEnd -- dba
+backEnd -- infr
+backEnd -- algo
+backEnd -right- pe
+backEnd -left- test
+
+@enduml
